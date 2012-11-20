@@ -106,7 +106,6 @@ def parse_data( data, cache ):
     print >> sys.stderr, "Forwarded calls not supported, processing as common call"
     p += 2
     num_l = ord(data[p])
-    p += (num_l + 1) / 2
   p += (num_l + 1) / 2
   if ord(data[p]) == 102:
     p += 1
